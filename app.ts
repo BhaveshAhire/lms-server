@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: ["https://lmselearning.vercel.app", "http://localhost:3000"],
+    origin: ["https://lms-client-beta-kohl.vercel.app/", "http://localhost:3000"],
   })
 );
 // app.use(
